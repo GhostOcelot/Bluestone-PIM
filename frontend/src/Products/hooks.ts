@@ -5,10 +5,12 @@ import { useEffect } from "react"
 import { toast } from "react-toastify"
 import { useNavigate } from "react-router"
 
+const BASE_URL = import.meta.env.VITE_BASE_URL || "http://localhost:3000"
+
 export const useGetProducts = () => {
   const { data: getProductsQuery, isPending } = useQuery({
     queryKey: ["products"],
-    queryFn: () => axios.get(`${import.meta.env.VITE_BASE_URL}/products`),
+    queryFn: () => axios.get(`${BASE_URL}/products`),
   })
 
   const products: Product[] = getProductsQuery?.data
@@ -19,7 +21,7 @@ export const useGetProducts = () => {
 export const useGetProductById = (id: string) => {
   const { data: getProductByIdQuery, isPending } = useQuery({
     queryKey: ["product", id],
-    queryFn: () => axios.get(`${import.meta.env.VITE_BASE_URL}/products/${id}`),
+    queryFn: () => axios.get(`${BASE_URL}/products/${id}`),
   })
 
   const product: Product | undefined = getProductByIdQuery?.data
@@ -31,8 +33,8 @@ export const useAddProduct = (closeModal: () => void) => {
   const queryClient = useQueryClient()
   const notify = (msg: string) => toast.success(msg)
 
-  const { mutate: updateProductMutation } = useMutation({
-    mutationFn: (data: Partial<Product>) => axios.post(`${import.meta.env.VITE_BASE_URL}/products`, data),
+  const { mutate: addProductMutation } = useMutation({
+    mutationFn: (data: Partial<Product>) => axios.post(`${BASE_URL}/products`, data),
     onSuccess: () => {
       closeModal()
       notify("Product added successfully")
@@ -40,9 +42,9 @@ export const useAddProduct = (closeModal: () => void) => {
     },
   })
 
-  const handleUpdateProduct = async (data: Partial<Product>) => updateProductMutation(data)
+  const handleAddProduct = async (data: Partial<Product>) => addProductMutation(data)
 
-  return handleUpdateProduct
+  return handleAddProduct
 }
 
 export const useUpdateProduct = (id: string, closeModal: () => void) => {
@@ -50,7 +52,7 @@ export const useUpdateProduct = (id: string, closeModal: () => void) => {
   const notify = (msg: string) => toast.success(msg)
 
   const { mutate: updateProductMutation } = useMutation({
-    mutationFn: (data: Partial<Product>) => axios.put(`${import.meta.env.VITE_BASE_URL}/products/${id}`, data),
+    mutationFn: (data: Partial<Product>) => axios.put(`${BASE_URL}/products/${id}`, data),
     onSuccess: () => {
       closeModal()
       notify("Product edited successfully")
@@ -69,7 +71,7 @@ export const useDeleteProduct = (id: string) => {
   const notify = (msg: string) => toast.success(msg)
 
   const { mutate: deleteProductMutation } = useMutation({
-    mutationFn: () => axios.delete(`${import.meta.env.VITE_BASE_URL}/products/${id}`),
+    mutationFn: () => axios.delete(`${BASE_URL}/products/${id}`),
     onSuccess: () => {
       notify("Product deleted successfully")
       navigate("/")
