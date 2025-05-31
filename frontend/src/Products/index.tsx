@@ -15,7 +15,6 @@ const Products = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <h1 className="text-2xl font-bold mb-2">Products</h1>
       <Button label="add product" onClick={() => setModalOpen(true)} className="mb-2 w-52" />
       <div>
         <Button
