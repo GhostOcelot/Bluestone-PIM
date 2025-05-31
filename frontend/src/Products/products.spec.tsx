@@ -1,5 +1,4 @@
 import { render, screen, fireEvent } from "@testing-library/react"
-import { describe, it, expect, vi } from "vitest"
 import type { Product } from "./types"
 import ProductCard from "./ProductCard"
 import { MemoryRouter } from "react-router"

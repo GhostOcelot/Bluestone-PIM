@@ -1,3 +1,4 @@
+import Button from "../components/Button"
 import type { Product } from "./types"
 
 interface Props {
@@ -20,12 +21,8 @@ const ProductCard = ({ product, onDelete, openModal }: Props) => {
           <img src={url} alt={name} />
         </div>
       ))}
-      <button onClick={onDelete} className={`my-2 px-3 py-2 rounded cursor-pointer bg-red-400 text-white hover:bg-red-600 transition-colors duration-300`}>
-        delete product
-      </button>
-      <button onClick={openModal} className={`my-2 px-3 py-2 rounded cursor-pointer bg-blue-400 text-white hover:bg-blue-600 transition-colors duration-300`}>
-        edit product
-      </button>
+      <Button label="delete product" onClick={onDelete} className="bg-red-600 my-2" />
+      <Button label="edit product" onClick={openModal} className="mt-2" />
     </div>
   )
 }

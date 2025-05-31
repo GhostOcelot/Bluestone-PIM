@@ -4,6 +4,7 @@ import { DataView } from "./types"
 import { useAddProduct, useGetProducts } from "./hooks"
 import ProductModal from "./ProductModal"
 import ProductForm from "./ProductForm"
+import Button from "../components/Button"
 
 const Products = () => {
   const [dataView, setDataView] = useState(DataView.LIST)
@@ -12,21 +13,21 @@ const Products = () => {
   const { products } = useGetProducts()
   const addProduct = useAddProduct(() => setModalOpen(false))
 
-  const baseStyles = "m-2 p-2 rounded cursor-pointer text-white hover:bg-blue-600 transition-colors duration-300"
-
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-2xl font-bold mb-2">Products</h1>
-      <button onClick={() => setModalOpen(true)} className={`${baseStyles} bg-blue-400 w-52`}>
-        add product
-      </button>
+      <Button label="add product" onClick={() => setModalOpen(true)} className="mb-2 w-52" />
       <div>
-        <button onClick={() => setDataView(DataView.LIST)} className={`${dataView === DataView.CARDS ? "bg-blue-400" : "bg-blue-600"} ${baseStyles} w-24`}>
-          List
-        </button>
-        <button onClick={() => setDataView(DataView.CARDS)} className={`${dataView === DataView.LIST ? "bg-blue-400" : "bg-blue-600"} ${baseStyles} w-24`}>
-          Cards
-        </button>
+        <Button
+          label="List"
+          onClick={() => setDataView(DataView.LIST)}
+          className={`${dataView === DataView.CARDS ? "bg-blue-400" : "bg-blue-600"} hover:scale-105 w-24 m-2`}
+        />
+        <Button
+          label="Cards"
+          onClick={() => setDataView(DataView.CARDS)}
+          className={`${dataView === DataView.LIST ? "bg-blue-400" : "bg-blue-600"} hover:scale-105 w-24 m-2`}
+        />
       </div>
       {products ? dataView === DataView.CARDS ? <Cards data={products} /> : <List data={products} /> : <div className="my-4">No items to display</div>}
       <ProductModal isModalOpen={isModalOpen} onCloseModal={() => setModalOpen(false)} label="add product">

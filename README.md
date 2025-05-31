@@ -14,26 +14,36 @@ Unit tests that checks proper rendering and some functional bahavior were also w
 
 I used some additional flavor like displaying toasts on successfull API requests, lazy components loading, custom spinner on loading state and more, but you will see this for yourself.
 
-# Frontend:
+# Clone the repository to your local machine and follow the below steps:
 
-### Install dependencies
+### Frontend:
+
+#### navigate to the frontend folder
+
+- cd frontend
+
+#### Install dependencies
 
 - npm install
 
-### Run application
+#### Run application
 
 - npm run dev
 
-### Run tests
+#### Run tests
 
 - npm run test
 
-# Backend:
+### Backend:
 
-### Install dependencies
+#### navigate to the backend folder
+
+- cd backend
+
+#### Install dependencies
 
 - npm install
 
-### Run application
+#### Run application
 
 - node server (you can also use nodemon)
