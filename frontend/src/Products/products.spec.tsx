@@ -1,8 +1,8 @@
 import { render, screen, fireEvent } from "@testing-library/react"
 import type { Product } from "./types"
-import ProductCard from "./ProductCard"
+import ProductCard from "./ProductDetails/ProductCard"
 import { MemoryRouter } from "react-router"
-import { List } from "./ProductsList"
+import List from "./ProductsList/List"
 import ProductForm from "./ProductForm"
 
 const mockProduct: Product = {

@@ -8,25 +8,25 @@ import { useNavigate } from "react-router"
 const BASE_URL = import.meta.env.VITE_BASE_URL || "http://localhost:3000"
 
 export const useGetProducts = () => {
-  const { data: getProductsQuery, isPending } = useQuery({
+  const { data: getProductsQuery } = useQuery({
     queryKey: ["products"],
     queryFn: () => axios.get(`${BASE_URL}/products`),
   })
 
   const products: Product[] = getProductsQuery?.data
 
-  return { products, isPending }
+  return products
 }
 
 export const useGetProductById = (id: string) => {
-  const { data: getProductByIdQuery, isPending } = useQuery({
+  const { data: getProductByIdQuery } = useQuery({
     queryKey: ["product", id],
     queryFn: () => axios.get(`${BASE_URL}/products/${id}`),
   })
 
   const product: Product | undefined = getProductByIdQuery?.data
 
-  return { product, isPending }
+  return product
 }
 
 export const useAddProduct = (closeModal: () => void) => {

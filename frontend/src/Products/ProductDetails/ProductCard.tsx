@@ -1,5 +1,5 @@
-import Button from "../components/Button"
-import type { Product } from "./types"
+import Button from "../../components/Button"
+import type { Product } from "../types"
 
 interface Props {
   product: Product | undefined

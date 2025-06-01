@@ -7,7 +7,7 @@ import { lazy, Suspense } from "react"
 import Spinner from "./components/Spinner.tsx"
 
 const Products = lazy(() => import("./Products/index.tsx"))
-const ProductDetails = lazy(() => import("./Products/ProductDetails.tsx"))
+const ProductDetails = lazy(() => import("./Products/ProductDetails/ProductDetails.tsx"))
 
 const router = createBrowserRouter([
   {
