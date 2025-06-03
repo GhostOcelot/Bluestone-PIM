@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 import { toast } from "react-toastify"
 import { useNavigate } from "react-router"
 
-const BASE_URL = import.meta.env.VITE_BASE_URL || "http://localhost:3000"
+const BASE_URL = import.meta.env.VITE_BASE_URL
 
 export const useGetProducts = (search?: string) => {
   const { data: getProductsQuery, isPending } = useQuery({
