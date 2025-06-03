@@ -2,13 +2,13 @@ version: 1
 applications:
   - appRoot: frontend
     frontend:
-      frontend:
-        runtime-versions:
-          nodejs: 20
+      runtime-versions:
+        nodejs: 20
       phases:
         preBuild:
           commands:
-            - npm ci
+            - rm -rf node_modules package-lock.json
+            - npm install
         build:
           commands:
             - npm run build
