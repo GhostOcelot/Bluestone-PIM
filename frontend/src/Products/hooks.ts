@@ -1,21 +1,21 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query"
 import axios from "axios"
 import type { Product } from "./types"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import { toast } from "react-toastify"
 import { useNavigate } from "react-router"
 
 const BASE_URL = import.meta.env.VITE_BASE_URL || "http://localhost:3000"
 
-export const useGetProducts = () => {
-  const { data: getProductsQuery } = useQuery({
-    queryKey: ["products"],
-    queryFn: () => axios.get(`${BASE_URL}/products`),
+export const useGetProducts = (search?: string) => {
+  const { data: getProductsQuery, isPending } = useQuery({
+    queryKey: ["products", search],
+    queryFn: () => axios.get(`${BASE_URL}/products${search ? `?q=${search}` : ""}`),
   })
 
   const products: Product[] = getProductsQuery?.data
 
-  return products
+  return { products, isPending }
 }
 
 export const useGetProductById = (id: string) => {
@@ -96,4 +96,15 @@ export const useDisableScroll = (isModalOpen: boolean) => {
       document.body.classList.remove("overflow-hidden")
     }
   }, [isModalOpen])
+}
+
+export const useDebounce = (value: string, delay = 500) => {
+  const [debouncedValue, setDebouncedValue] = useState(value)
+
+  useEffect(() => {
+    const timeout = setTimeout(() => setDebouncedValue(value), delay)
+    return () => clearTimeout(timeout)
+  }, [value, delay])
+
+  return debouncedValue
 }

@@ -24,7 +24,7 @@ const queryClient = new QueryClient()
 
 createRoot(document.getElementById("root")!).render(
   <QueryClientProvider client={queryClient}>
-    <Suspense fallback={<Spinner />}>
+    <Suspense fallback={<Spinner className="h-screen" />}>
       <RouterProvider router={router} />
     </Suspense>
   </QueryClientProvider>,

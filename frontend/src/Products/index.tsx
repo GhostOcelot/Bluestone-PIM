@@ -1,17 +1,18 @@
-import Cards from "./ProductsList/Cards"
-import List from "./ProductsList/List"
 import { useState } from "react"
 import { DataView } from "./types"
-import { useAddProduct, useGetProducts, useDisableScroll } from "./hooks"
+import { useAddProduct, useGetProducts, useDisableScroll, useDebounce } from "./hooks"
 import Modal from "../components/Modal"
 import ProductForm from "./ProductForm"
 import Button from "../components/Button"
+import Spinner from "../components/Spinner"
+import ProductsView from "./ProductsView"
 
 const Products = () => {
   const [dataView, setDataView] = useState(DataView.LIST)
   const [isModalOpen, setModalOpen] = useState(false)
+  const [search, setSearch] = useState("")
 
-  const products = useGetProducts()
+  const { products, isPending } = useGetProducts(useDebounce(search))
   const addProduct = useAddProduct(() => setModalOpen(false))
   useDisableScroll(isModalOpen)
 
@@ -30,7 +31,14 @@ const Products = () => {
           className={`${dataView === DataView.LIST ? "bg-blue-400" : "bg-blue-600"} hover:scale-105 w-24 m-2`}
         />
       </div>
-      {products ? dataView === DataView.CARDS ? <Cards data={products} /> : <List data={products} /> : <div className="my-4">No items to display</div>}
+      <input
+        className="p-2 border border-gray-300 rounded mt-12 mb-2 w-full max-w-5xl"
+        placeholder="search products"
+        type="text"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+      />
+      {isPending ? <Spinner className="mt-4" /> : <ProductsView products={products} dataView={dataView} />}
       {isModalOpen && (
         <Modal onCloseModal={() => setModalOpen(false)} label="add product">
           <ProductForm onSubmit={addProduct} label="confirm add" />

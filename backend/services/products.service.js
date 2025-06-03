@@ -39,7 +39,17 @@ export class ProductService {
   ]
 
   static getProducts = (req, res) => {
-    res.send(ProductService.products)
+    const { q } = req.query
+
+    if (!q) {
+      return res.send(ProductService.products)
+    }
+
+    const products = ProductService.products.filter(
+      (product) => product.number.toLowerCase().includes(q.toLowerCase()) || product.description.toLowerCase().includes(q.toLowerCase()),
+    )
+
+    res.send(products)
   }
 
   static getProductById = (req, res) => {
