@@ -37,7 +37,7 @@ describe("List", () => {
     const listItems = screen.queryAllByRole("listitem")
     expect(listItems).toHaveLength(2)
     expect(screen.getByText("Product 1")).toBeInTheDocument()
-    expect(screen.getByText("Product 3")).toBeInTheDocument()
+    expect(screen.getByText("Product 2")).toBeInTheDocument()
   })
 
   it("shows empty state if no products", () => {
