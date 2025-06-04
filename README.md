@@ -14,7 +14,7 @@ Unit tests that checks proper rendering and some functional bahavior were also w
 
 I used some additional flavor like displaying toasts on successfull API requests, lazy components loading, custom spinner on loading state and more, but you will see this for yourself.
 
-## Clone the repository to your local machine and follow the below steps:
+## Clone the repository to your local machine and follow the below steps
 
 ### Frontend:
 
