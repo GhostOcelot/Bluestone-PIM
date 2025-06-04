@@ -10,7 +10,7 @@ For managing the server data I used tanstack query. Relevant data is cached and 
 
 I see some problems with the sample data provided, however I didn't change the structure. The field 'name' seems actually to be the ID and the field 'number' looks like the actual name, so it looks a bit confusing. Also there are 2 items with the same 'name' (that looks like the ID as I mentioned), so in the case I changed it in 1 item to avoid duplicates.
 
-Unit tests that checks proper rendering and some functional bahavior were also written.
+Unit tests that checks proper rendering and some functional bahavior were also prepared.
 
 I used some additional flavor like displaying toasts on successfull API requests, lazy components loading, custom spinner on loading state and more, but you will see this for yourself.
 
