@@ -19,14 +19,14 @@ export const useGetProducts = (search?: string) => {
 }
 
 export const useGetProductById = (id: string) => {
-  const { data: getProductByIdQuery } = useQuery({
+  const { data: getProductByIdQuery, isPending } = useQuery({
     queryKey: ["product", id],
     queryFn: () => axios.get(`${BASE_URL}/products/${id}`),
   })
 
   const product: Product | undefined = getProductByIdQuery?.data
 
-  return product
+  return { product, isPending }
 }
 
 export const useAddProduct = (closeModal: () => void) => {
