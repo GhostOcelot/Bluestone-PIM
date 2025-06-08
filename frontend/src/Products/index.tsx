@@ -6,6 +6,7 @@ import ProductForm from "./ProductForm"
 import Button from "../components/Button"
 import Spinner from "../components/Spinner"
 import ProductsView from "./ProductsView"
+import Chart from "./Chart"
 
 const Products = () => {
   const [dataView, setDataView] = useState(DataView.LIST)
@@ -18,6 +19,7 @@ const Products = () => {
 
   return (
     <div className="flex flex-col items-center">
+      <Chart />
       <Button label="add product" onClick={() => setModalOpen(true)} className="mb-2 w-52" />
       <div>
         <Button
