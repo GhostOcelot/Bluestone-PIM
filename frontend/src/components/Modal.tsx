@@ -23,7 +23,6 @@ const Modal = ({ label, onCloseModal, children }: Props) => {
         tabIndex={0}
         role="button"
       >
-        {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */}
         <div className="relative bg-white rounded-xl p-6 w-[400px] max-w-full mx-8" onClick={(e) => e.stopPropagation()}>
           {label && <h1 className="text-center text-xl font-semibold">{label}</h1>}
           <button
