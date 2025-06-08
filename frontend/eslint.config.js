@@ -17,7 +17,7 @@ export default tseslint.config(
       ecmaVersion: 2020,
       globals: globals.browser,
       parserOptions: {
-        ecmaFeatures: {jsx: true},
+        ecmaFeatures: { jsx: true },
         sourceType: "module",
       },
     },
