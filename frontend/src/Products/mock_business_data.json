@@ -1,0 +1,2002 @@
+[
+  {
+    "year": 2025,
+    "month": 6,
+    "region": "West",
+    "category": "Toys",
+    "sales": 61417.69,
+    "units": 869,
+    "satisfaction": 61.84,
+    "conversion_rate": 7.9
+  },
+  {
+    "year": 2023,
+    "month": 12,
+    "region": "South",
+    "category": "Toys",
+    "sales": 76296.68,
+    "units": 697,
+    "satisfaction": 89.52,
+    "conversion_rate": 2.59
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 31248.13,
+    "units": 137,
+    "satisfaction": 71.64,
+    "conversion_rate": 2.11
+  },
+  {
+    "year": 2022,
+    "month": 2,
+    "region": "North",
+    "category": "Home & Garden",
+    "sales": 58721.02,
+    "units": 813,
+    "satisfaction": 73.89,
+    "conversion_rate": 5.04
+  },
+  {
+    "year": 2022,
+    "month": 12,
+    "region": "North",
+    "category": "Home & Garden",
+    "sales": 10554.61,
+    "units": 821,
+    "satisfaction": 58.64,
+    "conversion_rate": 7.39
+  },
+  {
+    "year": 2023,
+    "month": 1,
+    "region": "West",
+    "category": "Clothing",
+    "sales": 80505.85,
+    "units": 495,
+    "satisfaction": 77.92,
+    "conversion_rate": 1.29
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "region": "North",
+    "category": "Books",
+    "sales": 22605.25,
+    "units": 42,
+    "satisfaction": 68.23,
+    "conversion_rate": 7.41
+  },
+  {
+    "year": 2022,
+    "month": 9,
+    "region": "East",
+    "category": "Clothing",
+    "sales": 27783.03,
+    "units": 253,
+    "satisfaction": 84.41,
+    "conversion_rate": 8.19
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "region": "West",
+    "category": "Books",
+    "sales": 74846.82,
+    "units": 180,
+    "satisfaction": 96.61,
+    "conversion_rate": 4.61
+  },
+  {
+    "year": 2020,
+    "month": 11,
+    "region": "East",
+    "category": "Home & Garden",
+    "sales": 51965.84,
+    "units": 893,
+    "satisfaction": 63.34,
+    "conversion_rate": 6.73
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "region": "West",
+    "category": "Electronics",
+    "sales": 94590.62,
+    "units": 154,
+    "satisfaction": 52.64,
+    "conversion_rate": 6.43
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "region": "South",
+    "category": "Toys",
+    "sales": 72085.33,
+    "units": 552,
+    "satisfaction": 98.64,
+    "conversion_rate": 0.74
+  },
+  {
+    "year": 2022,
+    "month": 7,
+    "region": "North",
+    "category": "Toys",
+    "sales": 82073.46,
+    "units": 27,
+    "satisfaction": 96.14,
+    "conversion_rate": 1.53
+  },
+  {
+    "year": 2022,
+    "month": 6,
+    "region": "East",
+    "category": "Books",
+    "sales": 54942.13,
+    "units": 531,
+    "satisfaction": 58.32,
+    "conversion_rate": 7.09
+  },
+  {
+    "year": 2022,
+    "month": 5,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 35854.55,
+    "units": 827,
+    "satisfaction": 68.4,
+    "conversion_rate": 3.76
+  },
+  {
+    "year": 2020,
+    "month": 9,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 91122.83,
+    "units": 393,
+    "satisfaction": 76.22,
+    "conversion_rate": 9.05
+  },
+  {
+    "year": 2021,
+    "month": 10,
+    "region": "North",
+    "category": "Clothing",
+    "sales": 93955.57,
+    "units": 150,
+    "satisfaction": 64.74,
+    "conversion_rate": 7.78
+  },
+  {
+    "year": 2023,
+    "month": 7,
+    "region": "North",
+    "category": "Books",
+    "sales": 71535.68,
+    "units": 384,
+    "satisfaction": 81.96,
+    "conversion_rate": 8.34
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 26483.02,
+    "units": 175,
+    "satisfaction": 72.1,
+    "conversion_rate": 3.27
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "region": "East",
+    "category": "Home & Garden",
+    "sales": 50105.27,
+    "units": 510,
+    "satisfaction": 50.76,
+    "conversion_rate": 4.24
+  },
+  {
+    "year": 2022,
+    "month": 11,
+    "region": "North",
+    "category": "Toys",
+    "sales": 51874.78,
+    "units": 985,
+    "satisfaction": 81.71,
+    "conversion_rate": 6.17
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "region": "West",
+    "category": "Electronics",
+    "sales": 71672.1,
+    "units": 336,
+    "satisfaction": 76.35,
+    "conversion_rate": 8.56
+  },
+  {
+    "year": 2024,
+    "month": 4,
+    "region": "North",
+    "category": "Books",
+    "sales": 43220.72,
+    "units": 843,
+    "satisfaction": 96.92,
+    "conversion_rate": 2.7
+  },
+  {
+    "year": 2020,
+    "month": 2,
+    "region": "East",
+    "category": "Toys",
+    "sales": 41459.05,
+    "units": 580,
+    "satisfaction": 81.99,
+    "conversion_rate": 3.19
+  },
+  {
+    "year": 2022,
+    "month": 8,
+    "region": "South",
+    "category": "Electronics",
+    "sales": 63935.18,
+    "units": 52,
+    "satisfaction": 58.8,
+    "conversion_rate": 2.35
+  },
+  {
+    "year": 2023,
+    "month": 2,
+    "region": "North",
+    "category": "Home & Garden",
+    "sales": 5247.15,
+    "units": 459,
+    "satisfaction": 70.96,
+    "conversion_rate": 9.03
+  },
+  {
+    "year": 2020,
+    "month": 8,
+    "region": "North",
+    "category": "Toys",
+    "sales": 99512.55,
+    "units": 198,
+    "satisfaction": 50.59,
+    "conversion_rate": 5.15
+  },
+  {
+    "year": 2023,
+    "month": 11,
+    "region": "West",
+    "category": "Electronics",
+    "sales": 7368.08,
+    "units": 555,
+    "satisfaction": 71.8,
+    "conversion_rate": 1.72
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "region": "East",
+    "category": "Toys",
+    "sales": 64331.52,
+    "units": 15,
+    "satisfaction": 60.3,
+    "conversion_rate": 6.78
+  },
+  {
+    "year": 2021,
+    "month": 10,
+    "region": "East",
+    "category": "Toys",
+    "sales": 71419.53,
+    "units": 162,
+    "satisfaction": 81.17,
+    "conversion_rate": 9.1
+  },
+  {
+    "year": 2022,
+    "month": 2,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 72155.03,
+    "units": 831,
+    "satisfaction": 53.57,
+    "conversion_rate": 3.66
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "region": "North",
+    "category": "Toys",
+    "sales": 18953.95,
+    "units": 19,
+    "satisfaction": 60.91,
+    "conversion_rate": 2.09
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "region": "East",
+    "category": "Home & Garden",
+    "sales": 69903.92,
+    "units": 59,
+    "satisfaction": 70.96,
+    "conversion_rate": 2.53
+  },
+  {
+    "year": 2023,
+    "month": 6,
+    "region": "North",
+    "category": "Books",
+    "sales": 82035.78,
+    "units": 523,
+    "satisfaction": 97.59,
+    "conversion_rate": 6.19
+  },
+  {
+    "year": 2023,
+    "month": 3,
+    "region": "West",
+    "category": "Clothing",
+    "sales": 84132.31,
+    "units": 754,
+    "satisfaction": 87.14,
+    "conversion_rate": 4.28
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 33073.79,
+    "units": 569,
+    "satisfaction": 58.14,
+    "conversion_rate": 2.84
+  },
+  {
+    "year": 2021,
+    "month": 10,
+    "region": "East",
+    "category": "Clothing",
+    "sales": 24980.65,
+    "units": 268,
+    "satisfaction": 56.21,
+    "conversion_rate": 9.41
+  },
+  {
+    "year": 2023,
+    "month": 6,
+    "region": "East",
+    "category": "Electronics",
+    "sales": 26401.74,
+    "units": 422,
+    "satisfaction": 83.59,
+    "conversion_rate": 9.26
+  },
+  {
+    "year": 2023,
+    "month": 11,
+    "region": "South",
+    "category": "Toys",
+    "sales": 5916.37,
+    "units": 836,
+    "satisfaction": 83.39,
+    "conversion_rate": 0.78
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 43130.74,
+    "units": 470,
+    "satisfaction": 91.03,
+    "conversion_rate": 8.02
+  },
+  {
+    "year": 2022,
+    "month": 9,
+    "region": "North",
+    "category": "Toys",
+    "sales": 31196.13,
+    "units": 755,
+    "satisfaction": 65.6,
+    "conversion_rate": 8.4
+  },
+  {
+    "year": 2022,
+    "month": 1,
+    "region": "North",
+    "category": "Clothing",
+    "sales": 2678.72,
+    "units": 335,
+    "satisfaction": 84.74,
+    "conversion_rate": 9.26
+  },
+  {
+    "year": 2023,
+    "month": 12,
+    "region": "South",
+    "category": "Toys",
+    "sales": 5665.14,
+    "units": 514,
+    "satisfaction": 94.99,
+    "conversion_rate": 1.36
+  },
+  {
+    "year": 2021,
+    "month": 9,
+    "region": "North",
+    "category": "Toys",
+    "sales": 46444.59,
+    "units": 362,
+    "satisfaction": 65.39,
+    "conversion_rate": 0.96
+  },
+  {
+    "year": 2021,
+    "month": 4,
+    "region": "South",
+    "category": "Electronics",
+    "sales": 45324.2,
+    "units": 394,
+    "satisfaction": 97.57,
+    "conversion_rate": 1.27
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 19796.37,
+    "units": 32,
+    "satisfaction": 66.93,
+    "conversion_rate": 0.94
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "region": "North",
+    "category": "Toys",
+    "sales": 19456.08,
+    "units": 117,
+    "satisfaction": 50.01,
+    "conversion_rate": 2.98
+  },
+  {
+    "year": 2023,
+    "month": 3,
+    "region": "North",
+    "category": "Home & Garden",
+    "sales": 79567.14,
+    "units": 453,
+    "satisfaction": 97.96,
+    "conversion_rate": 8.3
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "region": "South",
+    "category": "Electronics",
+    "sales": 20962.92,
+    "units": 417,
+    "satisfaction": 99.97,
+    "conversion_rate": 8.11
+  },
+  {
+    "year": 2023,
+    "month": 12,
+    "region": "East",
+    "category": "Books",
+    "sales": 89926.48,
+    "units": 588,
+    "satisfaction": 84.75,
+    "conversion_rate": 3.52
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "region": "South",
+    "category": "Toys",
+    "sales": 23638.09,
+    "units": 72,
+    "satisfaction": 61.1,
+    "conversion_rate": 5.3
+  },
+  {
+    "year": 2023,
+    "month": 8,
+    "region": "North",
+    "category": "Clothing",
+    "sales": 56893.24,
+    "units": 62,
+    "satisfaction": 92.72,
+    "conversion_rate": 8.27
+  },
+  {
+    "year": 2023,
+    "month": 12,
+    "region": "East",
+    "category": "Books",
+    "sales": 57722.99,
+    "units": 478,
+    "satisfaction": 74.86,
+    "conversion_rate": 0.67
+  },
+  {
+    "year": 2022,
+    "month": 1,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 4455.76,
+    "units": 833,
+    "satisfaction": 64.28,
+    "conversion_rate": 4.78
+  },
+  {
+    "year": 2020,
+    "month": 1,
+    "region": "North",
+    "category": "Toys",
+    "sales": 71663.57,
+    "units": 682,
+    "satisfaction": 92.79,
+    "conversion_rate": 3.05
+  },
+  {
+    "year": 2022,
+    "month": 12,
+    "region": "North",
+    "category": "Home & Garden",
+    "sales": 64882.4,
+    "units": 616,
+    "satisfaction": 72.36,
+    "conversion_rate": 6.68
+  },
+  {
+    "year": 2021,
+    "month": 7,
+    "region": "North",
+    "category": "Toys",
+    "sales": 11280.42,
+    "units": 963,
+    "satisfaction": 55.67,
+    "conversion_rate": 3.14
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "region": "West",
+    "category": "Books",
+    "sales": 21765.97,
+    "units": 683,
+    "satisfaction": 59.03,
+    "conversion_rate": 5.71
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "region": "South",
+    "category": "Books",
+    "sales": 96152.94,
+    "units": 878,
+    "satisfaction": 77.13,
+    "conversion_rate": 4.05
+  },
+  {
+    "year": 2021,
+    "month": 2,
+    "region": "East",
+    "category": "Books",
+    "sales": 34047.82,
+    "units": 960,
+    "satisfaction": 64.09,
+    "conversion_rate": 7.34
+  },
+  {
+    "year": 2020,
+    "month": 2,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 41605.1,
+    "units": 19,
+    "satisfaction": 96.11,
+    "conversion_rate": 5.2
+  },
+  {
+    "year": 2022,
+    "month": 3,
+    "region": "East",
+    "category": "Electronics",
+    "sales": 17479.01,
+    "units": 606,
+    "satisfaction": 60.25,
+    "conversion_rate": 9.39
+  },
+  {
+    "year": 2020,
+    "month": 6,
+    "region": "West",
+    "category": "Books",
+    "sales": 42541.58,
+    "units": 286,
+    "satisfaction": 85.29,
+    "conversion_rate": 5.39
+  },
+  {
+    "year": 2022,
+    "month": 12,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 81699.43,
+    "units": 589,
+    "satisfaction": 85.39,
+    "conversion_rate": 7.95
+  },
+  {
+    "year": 2020,
+    "month": 6,
+    "region": "East",
+    "category": "Books",
+    "sales": 8727.94,
+    "units": 650,
+    "satisfaction": 54.36,
+    "conversion_rate": 2.19
+  },
+  {
+    "year": 2023,
+    "month": 7,
+    "region": "East",
+    "category": "Electronics",
+    "sales": 98770.77,
+    "units": 637,
+    "satisfaction": 94.03,
+    "conversion_rate": 8.3
+  },
+  {
+    "year": 2021,
+    "month": 2,
+    "region": "North",
+    "category": "Books",
+    "sales": 56919.85,
+    "units": 757,
+    "satisfaction": 89.58,
+    "conversion_rate": 4.83
+  },
+  {
+    "year": 2022,
+    "month": 3,
+    "region": "East",
+    "category": "Books",
+    "sales": 19756.23,
+    "units": 140,
+    "satisfaction": 92.57,
+    "conversion_rate": 4.31
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "region": "West",
+    "category": "Books",
+    "sales": 24310.34,
+    "units": 221,
+    "satisfaction": 84.07,
+    "conversion_rate": 5.51
+  },
+  {
+    "year": 2022,
+    "month": 2,
+    "region": "West",
+    "category": "Electronics",
+    "sales": 94928.0,
+    "units": 943,
+    "satisfaction": 99.79,
+    "conversion_rate": 8.14
+  },
+  {
+    "year": 2021,
+    "month": 7,
+    "region": "East",
+    "category": "Clothing",
+    "sales": 73325.36,
+    "units": 341,
+    "satisfaction": 52.06,
+    "conversion_rate": 3.62
+  },
+  {
+    "year": 2022,
+    "month": 11,
+    "region": "South",
+    "category": "Electronics",
+    "sales": 1018.55,
+    "units": 868,
+    "satisfaction": 95.71,
+    "conversion_rate": 3.2
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "region": "South",
+    "category": "Home & Garden",
+    "sales": 37900.0,
+    "units": 909,
+    "satisfaction": 74.18,
+    "conversion_rate": 0.63
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "region": "North",
+    "category": "Home & Garden",
+    "sales": 83703.19,
+    "units": 237,
+    "satisfaction": 68.73,
+    "conversion_rate": 3.47
+  },
+  {
+    "year": 2020,
+    "month": 5,
+    "region": "South",
+    "category": "Toys",
+    "sales": 5312.87,
+    "units": 318,
+    "satisfaction": 82.72,
+    "conversion_rate": 7.23
+  },
+  {
+    "year": 2023,
+    "month": 3,
+    "region": "South",
+    "category": "Home & Garden",
+    "sales": 25430.33,
+    "units": 741,
+    "satisfaction": 51.14,
+    "conversion_rate": 9.86
+  },
+  {
+    "year": 2020,
+    "month": 10,
+    "region": "North",
+    "category": "Books",
+    "sales": 79257.54,
+    "units": 551,
+    "satisfaction": 71.57,
+    "conversion_rate": 8.05
+  },
+  {
+    "year": 2022,
+    "month": 3,
+    "region": "East",
+    "category": "Clothing",
+    "sales": 8363.78,
+    "units": 559,
+    "satisfaction": 69.66,
+    "conversion_rate": 7.1
+  },
+  {
+    "year": 2023,
+    "month": 11,
+    "region": "East",
+    "category": "Home & Garden",
+    "sales": 35762.4,
+    "units": 238,
+    "satisfaction": 82.31,
+    "conversion_rate": 8.29
+  },
+  {
+    "year": 2023,
+    "month": 4,
+    "region": "South",
+    "category": "Electronics",
+    "sales": 35106.96,
+    "units": 888,
+    "satisfaction": 51.02,
+    "conversion_rate": 0.54
+  },
+  {
+    "year": 2021,
+    "month": 6,
+    "region": "North",
+    "category": "Home & Garden",
+    "sales": 87397.72,
+    "units": 664,
+    "satisfaction": 70.71,
+    "conversion_rate": 2.57
+  },
+  {
+    "year": 2020,
+    "month": 5,
+    "region": "East",
+    "category": "Electronics",
+    "sales": 60327.7,
+    "units": 524,
+    "satisfaction": 72.74,
+    "conversion_rate": 8.97
+  },
+  {
+    "year": 2023,
+    "month": 2,
+    "region": "West",
+    "category": "Electronics",
+    "sales": 57443.85,
+    "units": 832,
+    "satisfaction": 76.34,
+    "conversion_rate": 7.34
+  },
+  {
+    "year": 2021,
+    "month": 2,
+    "region": "South",
+    "category": "Clothing",
+    "sales": 21323.53,
+    "units": 480,
+    "satisfaction": 75.67,
+    "conversion_rate": 9.23
+  },
+  {
+    "year": 2023,
+    "month": 6,
+    "region": "East",
+    "category": "Toys",
+    "sales": 78577.42,
+    "units": 822,
+    "satisfaction": 95.95,
+    "conversion_rate": 9.71
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "region": "West",
+    "category": "Electronics",
+    "sales": 75446.0,
+    "units": 164,
+    "satisfaction": 57.04,
+    "conversion_rate": 5.44
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "region": "West",
+    "category": "Electronics",
+    "sales": 24418.22,
+    "units": 636,
+    "satisfaction": 60.04,
+    "conversion_rate": 3.45
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "region": "South",
+    "category": "Books",
+    "sales": 53744.22,
+    "units": 270,
+    "satisfaction": 64.5,
+    "conversion_rate": 9.15
+  },
+  {
+    "year": 2023,
+    "month": 2,
+    "region": "East",
+    "category": "Electronics",
+    "sales": 20365.34,
+    "units": 14,
+    "satisfaction": 61.07,
+    "conversion_rate": 1.09
+  },
+  {
+    "year": 2020,
+    "month": 2,
+    "region": "West",
+    "category": "Electronics",
+    "sales": 37531.27,
+    "units": 63,
+    "satisfaction": 50.39,
+    "conversion_rate": 4.42
+  },
+  {
+    "year": 2023,
+    "month": 5,
+    "region": "East",
+    "category": "Books",
+    "sales": 47223.05,
+    "units": 910,
+    "satisfaction": 92.8,
+    "conversion_rate": 1.22
+  },
+  {
+    "year": 2022,
+    "month": 3,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 7746.47,
+    "units": 280,
+    "satisfaction": 62.04,
+    "conversion_rate": 7.94
+  },
+  {
+    "year": 2021,
+    "month": 3,
+    "region": "South",
+    "category": "Electronics",
+    "sales": 76166.94,
+    "units": 843,
+    "satisfaction": 53.94,
+    "conversion_rate": 8.51
+  },
+  {
+    "year": 2021,
+    "month": 11,
+    "region": "West",
+    "category": "Books",
+    "sales": 36227.82,
+    "units": 709,
+    "satisfaction": 67.47,
+    "conversion_rate": 6.65
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "region": "West",
+    "category": "Books",
+    "sales": 71213.37,
+    "units": 669,
+    "satisfaction": 82.68,
+    "conversion_rate": 6.09
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "region": "East",
+    "category": "Home & Garden",
+    "sales": 22385.68,
+    "units": 43,
+    "satisfaction": 50.32,
+    "conversion_rate": 2.91
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "region": "East",
+    "category": "Toys",
+    "sales": 70216.55,
+    "units": 502,
+    "satisfaction": 86.48,
+    "conversion_rate": 5.34
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "region": "South",
+    "category": "Home & Garden",
+    "sales": 61352.3,
+    "units": 863,
+    "satisfaction": 93.11,
+    "conversion_rate": 1.62
+  },
+  {
+    "year": 2022,
+    "month": 7,
+    "region": "East",
+    "category": "Home & Garden",
+    "sales": 95388.57,
+    "units": 466,
+    "satisfaction": 85.92,
+    "conversion_rate": 9.7
+  },
+  {
+    "year": 2022,
+    "month": 10,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 86242.7,
+    "units": 826,
+    "satisfaction": 73.8,
+    "conversion_rate": 1.12
+  },
+  {
+    "year": 2021,
+    "month": 5,
+    "region": "North",
+    "category": "Books",
+    "sales": 91080.29,
+    "units": 77,
+    "satisfaction": 51.53,
+    "conversion_rate": 6.34
+  },
+  {
+    "year": 2022,
+    "month": 7,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 75472.48,
+    "units": 315,
+    "satisfaction": 99.66,
+    "conversion_rate": 2.57
+  },
+  {
+    "year": 2022,
+    "month": 1,
+    "region": "West",
+    "category": "Electronics",
+    "sales": 36984.38,
+    "units": 847,
+    "satisfaction": 62.52,
+    "conversion_rate": 1.72
+  },
+  {
+    "year": 2020,
+    "month": 2,
+    "region": "North",
+    "category": "Books",
+    "sales": 80363.97,
+    "units": 432,
+    "satisfaction": 83.74,
+    "conversion_rate": 4.64
+  },
+  {
+    "year": 2021,
+    "month": 1,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 65862.29,
+    "units": 842,
+    "satisfaction": 88.1,
+    "conversion_rate": 0.84
+  },
+  {
+    "year": 2021,
+    "month": 5,
+    "region": "West",
+    "category": "Clothing",
+    "sales": 58164.35,
+    "units": 51,
+    "satisfaction": 66.45,
+    "conversion_rate": 3.51
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "region": "East",
+    "category": "Books",
+    "sales": 95949.96,
+    "units": 938,
+    "satisfaction": 55.78,
+    "conversion_rate": 8.91
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "region": "West",
+    "category": "Clothing",
+    "sales": 60195.2,
+    "units": 358,
+    "satisfaction": 79.63,
+    "conversion_rate": 7.26
+  },
+  {
+    "year": 2020,
+    "month": 3,
+    "region": "East",
+    "category": "Home & Garden",
+    "sales": 24008.31,
+    "units": 824,
+    "satisfaction": 86.93,
+    "conversion_rate": 4.93
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "region": "West",
+    "category": "Clothing",
+    "sales": 55728.44,
+    "units": 357,
+    "satisfaction": 94.86,
+    "conversion_rate": 5.88
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "region": "East",
+    "category": "Electronics",
+    "sales": 30212.72,
+    "units": 620,
+    "satisfaction": 72.05,
+    "conversion_rate": 1.07
+  },
+  {
+    "year": 2022,
+    "month": 5,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 1588.92,
+    "units": 686,
+    "satisfaction": 81.18,
+    "conversion_rate": 1.45
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "region": "West",
+    "category": "Clothing",
+    "sales": 98232.45,
+    "units": 171,
+    "satisfaction": 59.16,
+    "conversion_rate": 0.82
+  },
+  {
+    "year": 2022,
+    "month": 3,
+    "region": "West",
+    "category": "Clothing",
+    "sales": 87552.12,
+    "units": 176,
+    "satisfaction": 93.04,
+    "conversion_rate": 7.27
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "region": "East",
+    "category": "Clothing",
+    "sales": 37490.5,
+    "units": 869,
+    "satisfaction": 95.54,
+    "conversion_rate": 5.91
+  },
+  {
+    "year": 2020,
+    "month": 2,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 77755.27,
+    "units": 88,
+    "satisfaction": 64.56,
+    "conversion_rate": 1.14
+  },
+  {
+    "year": 2022,
+    "month": 10,
+    "region": "South",
+    "category": "Electronics",
+    "sales": 86974.01,
+    "units": 235,
+    "satisfaction": 71.81,
+    "conversion_rate": 8.18
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "region": "West",
+    "category": "Electronics",
+    "sales": 49374.87,
+    "units": 315,
+    "satisfaction": 76.03,
+    "conversion_rate": 6.63
+  },
+  {
+    "year": 2020,
+    "month": 12,
+    "region": "East",
+    "category": "Books",
+    "sales": 27451.28,
+    "units": 20,
+    "satisfaction": 85.93,
+    "conversion_rate": 2.89
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "region": "South",
+    "category": "Toys",
+    "sales": 25366.53,
+    "units": 307,
+    "satisfaction": 93.48,
+    "conversion_rate": 4.19
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "region": "West",
+    "category": "Clothing",
+    "sales": 73552.42,
+    "units": 584,
+    "satisfaction": 89.14,
+    "conversion_rate": 1.7
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "region": "South",
+    "category": "Toys",
+    "sales": 24065.19,
+    "units": 788,
+    "satisfaction": 80.03,
+    "conversion_rate": 2.83
+  },
+  {
+    "year": 2022,
+    "month": 7,
+    "region": "South",
+    "category": "Home & Garden",
+    "sales": 92849.25,
+    "units": 387,
+    "satisfaction": 84.73,
+    "conversion_rate": 4.98
+  },
+  {
+    "year": 2023,
+    "month": 4,
+    "region": "West",
+    "category": "Clothing",
+    "sales": 63695.49,
+    "units": 542,
+    "satisfaction": 50.86,
+    "conversion_rate": 4.12
+  },
+  {
+    "year": 2021,
+    "month": 1,
+    "region": "East",
+    "category": "Books",
+    "sales": 82990.2,
+    "units": 45,
+    "satisfaction": 50.43,
+    "conversion_rate": 1.36
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "region": "North",
+    "category": "Toys",
+    "sales": 66514.46,
+    "units": 404,
+    "satisfaction": 94.15,
+    "conversion_rate": 4.76
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "region": "East",
+    "category": "Clothing",
+    "sales": 47625.68,
+    "units": 472,
+    "satisfaction": 78.77,
+    "conversion_rate": 3.2
+  },
+  {
+    "year": 2024,
+    "month": 6,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 14989.66,
+    "units": 659,
+    "satisfaction": 75.63,
+    "conversion_rate": 7.65
+  },
+  {
+    "year": 2022,
+    "month": 2,
+    "region": "East",
+    "category": "Clothing",
+    "sales": 89026.51,
+    "units": 39,
+    "satisfaction": 59.59,
+    "conversion_rate": 4.7
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "region": "West",
+    "category": "Books",
+    "sales": 44794.4,
+    "units": 885,
+    "satisfaction": 74.25,
+    "conversion_rate": 9.04
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "region": "East",
+    "category": "Books",
+    "sales": 16130.51,
+    "units": 674,
+    "satisfaction": 91.19,
+    "conversion_rate": 1.14
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "region": "East",
+    "category": "Toys",
+    "sales": 83545.0,
+    "units": 73,
+    "satisfaction": 84.65,
+    "conversion_rate": 7.93
+  },
+  {
+    "year": 2021,
+    "month": 7,
+    "region": "West",
+    "category": "Clothing",
+    "sales": 28638.81,
+    "units": 148,
+    "satisfaction": 73.08,
+    "conversion_rate": 9.36
+  },
+  {
+    "year": 2021,
+    "month": 5,
+    "region": "South",
+    "category": "Clothing",
+    "sales": 61106.51,
+    "units": 724,
+    "satisfaction": 52.68,
+    "conversion_rate": 7.73
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "region": "West",
+    "category": "Electronics",
+    "sales": 89155.74,
+    "units": 449,
+    "satisfaction": 84.15,
+    "conversion_rate": 1.89
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "region": "South",
+    "category": "Books",
+    "sales": 6218.9,
+    "units": 946,
+    "satisfaction": 94.15,
+    "conversion_rate": 2.68
+  },
+  {
+    "year": 2020,
+    "month": 3,
+    "region": "East",
+    "category": "Home & Garden",
+    "sales": 39720.42,
+    "units": 489,
+    "satisfaction": 78.79,
+    "conversion_rate": 3.01
+  },
+  {
+    "year": 2021,
+    "month": 2,
+    "region": "West",
+    "category": "Clothing",
+    "sales": 18628.89,
+    "units": 897,
+    "satisfaction": 94.91,
+    "conversion_rate": 3.68
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "region": "East",
+    "category": "Toys",
+    "sales": 60058.63,
+    "units": 431,
+    "satisfaction": 82.06,
+    "conversion_rate": 9.88
+  },
+  {
+    "year": 2020,
+    "month": 10,
+    "region": "West",
+    "category": "Electronics",
+    "sales": 39417.39,
+    "units": 278,
+    "satisfaction": 63.2,
+    "conversion_rate": 9.22
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "region": "East",
+    "category": "Books",
+    "sales": 15183.12,
+    "units": 251,
+    "satisfaction": 93.14,
+    "conversion_rate": 5.83
+  },
+  {
+    "year": 2022,
+    "month": 3,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 7168.11,
+    "units": 400,
+    "satisfaction": 89.52,
+    "conversion_rate": 1.88
+  },
+  {
+    "year": 2023,
+    "month": 4,
+    "region": "North",
+    "category": "Home & Garden",
+    "sales": 15644.0,
+    "units": 278,
+    "satisfaction": 62.44,
+    "conversion_rate": 9.53
+  },
+  {
+    "year": 2020,
+    "month": 2,
+    "region": "East",
+    "category": "Books",
+    "sales": 14609.16,
+    "units": 430,
+    "satisfaction": 82.56,
+    "conversion_rate": 9.35
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "region": "West",
+    "category": "Toys",
+    "sales": 56220.9,
+    "units": 880,
+    "satisfaction": 52.54,
+    "conversion_rate": 4.83
+  },
+  {
+    "year": 2023,
+    "month": 9,
+    "region": "South",
+    "category": "Clothing",
+    "sales": 12695.18,
+    "units": 79,
+    "satisfaction": 99.86,
+    "conversion_rate": 2.55
+  },
+  {
+    "year": 2022,
+    "month": 7,
+    "region": "North",
+    "category": "Toys",
+    "sales": 87855.93,
+    "units": 404,
+    "satisfaction": 91.89,
+    "conversion_rate": 8.18
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "region": "South",
+    "category": "Clothing",
+    "sales": 34851.72,
+    "units": 545,
+    "satisfaction": 94.0,
+    "conversion_rate": 7.7
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "region": "East",
+    "category": "Toys",
+    "sales": 6789.85,
+    "units": 187,
+    "satisfaction": 76.08,
+    "conversion_rate": 8.89
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "region": "South",
+    "category": "Toys",
+    "sales": 30546.39,
+    "units": 849,
+    "satisfaction": 99.73,
+    "conversion_rate": 0.75
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "region": "East",
+    "category": "Clothing",
+    "sales": 25896.14,
+    "units": 307,
+    "satisfaction": 86.97,
+    "conversion_rate": 9.51
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "region": "South",
+    "category": "Electronics",
+    "sales": 92343.69,
+    "units": 978,
+    "satisfaction": 66.16,
+    "conversion_rate": 4.12
+  },
+  {
+    "year": 2020,
+    "month": 2,
+    "region": "North",
+    "category": "Home & Garden",
+    "sales": 17687.62,
+    "units": 287,
+    "satisfaction": 92.25,
+    "conversion_rate": 3.79
+  },
+  {
+    "year": 2020,
+    "month": 1,
+    "region": "East",
+    "category": "Electronics",
+    "sales": 31204.39,
+    "units": 990,
+    "satisfaction": 99.3,
+    "conversion_rate": 5.85
+  },
+  {
+    "year": 2023,
+    "month": 3,
+    "region": "South",
+    "category": "Home & Garden",
+    "sales": 59325.36,
+    "units": 74,
+    "satisfaction": 63.44,
+    "conversion_rate": 5.71
+  },
+  {
+    "year": 2021,
+    "month": 11,
+    "region": "North",
+    "category": "Books",
+    "sales": 10719.3,
+    "units": 930,
+    "satisfaction": 50.28,
+    "conversion_rate": 4.6
+  },
+  {
+    "year": 2023,
+    "month": 10,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 47765.48,
+    "units": 588,
+    "satisfaction": 99.22,
+    "conversion_rate": 6.6
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "region": "South",
+    "category": "Toys",
+    "sales": 13375.5,
+    "units": 546,
+    "satisfaction": 75.78,
+    "conversion_rate": 1.74
+  },
+  {
+    "year": 2020,
+    "month": 2,
+    "region": "North",
+    "category": "Toys",
+    "sales": 58591.09,
+    "units": 414,
+    "satisfaction": 60.86,
+    "conversion_rate": 1.07
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "region": "East",
+    "category": "Electronics",
+    "sales": 14408.09,
+    "units": 430,
+    "satisfaction": 84.27,
+    "conversion_rate": 4.75
+  },
+  {
+    "year": 2020,
+    "month": 6,
+    "region": "East",
+    "category": "Home & Garden",
+    "sales": 99630.39,
+    "units": 167,
+    "satisfaction": 86.91,
+    "conversion_rate": 8.17
+  },
+  {
+    "year": 2023,
+    "month": 3,
+    "region": "South",
+    "category": "Electronics",
+    "sales": 81218.86,
+    "units": 481,
+    "satisfaction": 65.11,
+    "conversion_rate": 9.25
+  },
+  {
+    "year": 2020,
+    "month": 7,
+    "region": "East",
+    "category": "Books",
+    "sales": 32108.53,
+    "units": 281,
+    "satisfaction": 95.77,
+    "conversion_rate": 7.23
+  },
+  {
+    "year": 2022,
+    "month": 11,
+    "region": "East",
+    "category": "Toys",
+    "sales": 26555.03,
+    "units": 868,
+    "satisfaction": 90.77,
+    "conversion_rate": 7.21
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 18639.52,
+    "units": 156,
+    "satisfaction": 63.29,
+    "conversion_rate": 9.26
+  },
+  {
+    "year": 2023,
+    "month": 4,
+    "region": "South",
+    "category": "Toys",
+    "sales": 94393.76,
+    "units": 104,
+    "satisfaction": 84.11,
+    "conversion_rate": 7.24
+  },
+  {
+    "year": 2020,
+    "month": 2,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 33177.19,
+    "units": 976,
+    "satisfaction": 93.81,
+    "conversion_rate": 2.9
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "region": "South",
+    "category": "Toys",
+    "sales": 48278.23,
+    "units": 54,
+    "satisfaction": 71.61,
+    "conversion_rate": 8.41
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 72788.68,
+    "units": 155,
+    "satisfaction": 72.65,
+    "conversion_rate": 7.57
+  },
+  {
+    "year": 2023,
+    "month": 3,
+    "region": "East",
+    "category": "Home & Garden",
+    "sales": 79529.61,
+    "units": 929,
+    "satisfaction": 99.73,
+    "conversion_rate": 2.77
+  },
+  {
+    "year": 2021,
+    "month": 3,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 27694.81,
+    "units": 175,
+    "satisfaction": 67.16,
+    "conversion_rate": 0.92
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "region": "West",
+    "category": "Toys",
+    "sales": 78446.9,
+    "units": 230,
+    "satisfaction": 68.13,
+    "conversion_rate": 7.25
+  },
+  {
+    "year": 2022,
+    "month": 5,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 52100.48,
+    "units": 925,
+    "satisfaction": 53.2,
+    "conversion_rate": 4.99
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "region": "West",
+    "category": "Toys",
+    "sales": 39621.9,
+    "units": 468,
+    "satisfaction": 93.09,
+    "conversion_rate": 2.33
+  },
+  {
+    "year": 2020,
+    "month": 7,
+    "region": "South",
+    "category": "Books",
+    "sales": 15879.24,
+    "units": 982,
+    "satisfaction": 50.13,
+    "conversion_rate": 0.92
+  },
+  {
+    "year": 2020,
+    "month": 6,
+    "region": "East",
+    "category": "Electronics",
+    "sales": 9652.07,
+    "units": 345,
+    "satisfaction": 94.34,
+    "conversion_rate": 9.38
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "region": "West",
+    "category": "Books",
+    "sales": 87684.16,
+    "units": 308,
+    "satisfaction": 54.86,
+    "conversion_rate": 1.45
+  },
+  {
+    "year": 2022,
+    "month": 4,
+    "region": "South",
+    "category": "Electronics",
+    "sales": 20670.7,
+    "units": 487,
+    "satisfaction": 95.85,
+    "conversion_rate": 9.15
+  },
+  {
+    "year": 2020,
+    "month": 6,
+    "region": "South",
+    "category": "Clothing",
+    "sales": 96328.77,
+    "units": 434,
+    "satisfaction": 86.11,
+    "conversion_rate": 3.48
+  },
+  {
+    "year": 2022,
+    "month": 9,
+    "region": "North",
+    "category": "Home & Garden",
+    "sales": 81302.26,
+    "units": 893,
+    "satisfaction": 70.89,
+    "conversion_rate": 1.8
+  },
+  {
+    "year": 2022,
+    "month": 4,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 48055.01,
+    "units": 408,
+    "satisfaction": 68.59,
+    "conversion_rate": 4.96
+  },
+  {
+    "year": 2020,
+    "month": 10,
+    "region": "North",
+    "category": "Clothing",
+    "sales": 99123.01,
+    "units": 901,
+    "satisfaction": 57.38,
+    "conversion_rate": 8.42
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "region": "East",
+    "category": "Electronics",
+    "sales": 11296.95,
+    "units": 123,
+    "satisfaction": 71.2,
+    "conversion_rate": 8.31
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "region": "North",
+    "category": "Clothing",
+    "sales": 78629.21,
+    "units": 668,
+    "satisfaction": 80.78,
+    "conversion_rate": 3.33
+  },
+  {
+    "year": 2024,
+    "month": 6,
+    "region": "West",
+    "category": "Toys",
+    "sales": 38877.32,
+    "units": 229,
+    "satisfaction": 85.66,
+    "conversion_rate": 5.41
+  },
+  {
+    "year": 2020,
+    "month": 10,
+    "region": "North",
+    "category": "Books",
+    "sales": 42681.08,
+    "units": 261,
+    "satisfaction": 54.67,
+    "conversion_rate": 0.73
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "region": "West",
+    "category": "Books",
+    "sales": 53408.28,
+    "units": 959,
+    "satisfaction": 76.49,
+    "conversion_rate": 3.31
+  },
+  {
+    "year": 2022,
+    "month": 10,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 71343.64,
+    "units": 560,
+    "satisfaction": 83.19,
+    "conversion_rate": 1.41
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "region": "South",
+    "category": "Clothing",
+    "sales": 56856.72,
+    "units": 811,
+    "satisfaction": 82.08,
+    "conversion_rate": 8.6
+  },
+  {
+    "year": 2020,
+    "month": 9,
+    "region": "West",
+    "category": "Books",
+    "sales": 36837.54,
+    "units": 892,
+    "satisfaction": 59.38,
+    "conversion_rate": 3.81
+  },
+  {
+    "year": 2023,
+    "month": 11,
+    "region": "West",
+    "category": "Home & Garden",
+    "sales": 65812.69,
+    "units": 174,
+    "satisfaction": 94.21,
+    "conversion_rate": 2.25
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "region": "South",
+    "category": "Clothing",
+    "sales": 12155.33,
+    "units": 176,
+    "satisfaction": 72.19,
+    "conversion_rate": 5.04
+  },
+  {
+    "year": 2022,
+    "month": 12,
+    "region": "South",
+    "category": "Home & Garden",
+    "sales": 86663.16,
+    "units": 50,
+    "satisfaction": 91.53,
+    "conversion_rate": 1.58
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "region": "West",
+    "category": "Electronics",
+    "sales": 18957.51,
+    "units": 351,
+    "satisfaction": 96.42,
+    "conversion_rate": 2.81
+  },
+  {
+    "year": 2023,
+    "month": 11,
+    "region": "North",
+    "category": "Electronics",
+    "sales": 62927.7,
+    "units": 550,
+    "satisfaction": 57.54,
+    "conversion_rate": 2.59
+  },
+  {
+    "year": 2020,
+    "month": 11,
+    "region": "East",
+    "category": "Electronics",
+    "sales": 19259.13,
+    "units": 165,
+    "satisfaction": 59.4,
+    "conversion_rate": 2.34
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "region": "South",
+    "category": "Books",
+    "sales": 22385.0,
+    "units": 14,
+    "satisfaction": 75.49,
+    "conversion_rate": 8.46
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "region": "South",
+    "category": "Books",
+    "sales": 73387.41,
+    "units": 724,
+    "satisfaction": 91.23,
+    "conversion_rate": 3.31
+  },
+  {
+    "year": 2020,
+    "month": 7,
+    "region": "East",
+    "category": "Books",
+    "sales": 33053.04,
+    "units": 422,
+    "satisfaction": 94.86,
+    "conversion_rate": 2.77
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "region": "East",
+    "category": "Toys",
+    "sales": 20281.51,
+    "units": 394,
+    "satisfaction": 84.22,
+    "conversion_rate": 5.82
+  }
+]
