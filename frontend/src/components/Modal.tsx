@@ -13,7 +13,8 @@ const Modal = ({ label, onCloseModal, children }: Props) => {
     if (e.code === "Escape") onCloseModal()
   }
 
-  // add again
+  let d
+  console.log(d)
 
   return (
     <FocusTrap>
