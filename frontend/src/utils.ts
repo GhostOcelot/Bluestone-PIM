@@ -56,7 +56,7 @@ export const groupDataBy = (data: BusinessData[], year: number, column: Category
   return expectedKeys.map((key) => {
     const values = grouped[key] || { sales: [], units: [], satisfaction: [], conversion_rate: [] }
     return {
-      name: column === "month" ? monthMap.get(Number(key)) ?? key : key,
+      name: column === "month" ? (monthMap.get(Number(key)) ?? key) : key,
       sales: +values.sales.reduce((a, b) => a + b, 0).toFixed(2),
       units: values.units.reduce((a, b) => a + b, 0),
       satisfaction: average(values.satisfaction),
