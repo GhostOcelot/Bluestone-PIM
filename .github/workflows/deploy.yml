@@ -45,3 +45,25 @@ jobs:
       - name: Run ESLint
         working-directory: frontend
         run: npm run lint
+
+  check-up-to-date:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Fetch main branch
+        run: git fetch origin main
+
+      - name: Check if PR branch is up to date with main
+        run: |
+          UP_TO_DATE=$(git merge-base --is-ancestor origin/main HEAD && echo "yes" || echo "no")
+          echo "Up to date with main? $UP_TO_DATE"
+
+          if [ "$UP_TO_DATE" != "yes" ]; then
+            echo "Your branch is behind main. Please rebase or merge the latest main before merging."
+            exit 1
+          fi
