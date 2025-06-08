@@ -12,7 +12,7 @@ const Modal = ({ label, onCloseModal, children }: Props) => {
   const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
     if (e.code === "Escape") onCloseModal()
   }
-
+  // comment
   return (
     <FocusTrap>
       <div
@@ -32,7 +32,6 @@ const Modal = ({ label, onCloseModal, children }: Props) => {
           >
             <AiOutlineClose />
           </button>
-
           {children}
         </div>
       </div>
