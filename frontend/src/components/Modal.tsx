@@ -31,6 +31,7 @@ const Modal = ({ label, onCloseModal, children }: Props) => {
             className="focus:ring absolute top-4 right-4 w-6 h-6 p-1 rounded-full cursor-pointer flex justify-center items-center hover:bg-gray-200 transition-colors duration-300"
           >
             <AiOutlineClose />
+            <span>test</span>
           </button>
 
           {children}
