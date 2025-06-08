@@ -32,7 +32,6 @@ const Modal = ({ label, onCloseModal, children }: Props) => {
           >
             <AiOutlineClose />
           </button>
-
           {children}
         </div>
       </div>
